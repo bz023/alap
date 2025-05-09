@@ -6,7 +6,7 @@
 
 #define CODE_C "#include <stdio.h>\n#include <stdlib.h>\n\nint main(int argc, char *argv[])\n{\n\tprintf(\"Hello World!\\n\");\n\treturn 0;\n}\n"
 #define CODE_CSHARP "public class Program\n{\n\tpublic static void Main(string[] args)\n\t{\n\t\tSystem.Console.WriteLine(\"Hello, World!\");\n\t}\n}\n"
-#define CODE_PYTHON "print('Hello World!')\n"
+#define CODE_PYTHON "message = \"Hello, Python!\"\nprint(message)\n"
 #define CODE_BASH "#!/bin/bash\necho \"Hello World\"\n"
 
 
